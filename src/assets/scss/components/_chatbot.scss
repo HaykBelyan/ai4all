@@ -1,0 +1,102 @@
+@import "../variables";
+@import "../mixins";
+
+.chatbot-toggle {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	background: $tech-gradient-cta;
+	color: $white;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	@include flex-center();
+	font-size: 1.8rem;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	z-index: 1001;
+	transition: transform 0.3s ease;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.chatbot-widget {
+	position: fixed;
+	bottom: 90px;
+	right: 20px;
+	width: 90%;
+	max-width: 350px;
+	background-color: $white;
+	border-radius: 10px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+	z-index: 1000;
+	overflow: hidden;
+
+	// Animation properties
+	visibility: hidden;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: all 0.3s ease-in-out;
+
+	&.open {
+		visibility: visible;
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.chatbot-header {
+	@include flex-center(row, space-between, center);
+	padding: 10px 15px;
+	background-color: $eif-primary;
+	color: $white;
+
+	h4 {
+		margin-bottom: 0;
+		font-size: 1.1rem;
+		color: $white;
+		font-family: $font-body;
+	}
+
+	button {
+		background: none;
+		border: none;
+		color: $white;
+		font-size: 1.2rem;
+		cursor: pointer;
+		opacity: 0.8;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.chatbot-body {
+	padding: 15px;
+	max-height: 300px;
+	overflow-y: auto;
+
+	.bot-message {
+		font-size: 0.95rem;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		font-size: 0.9rem;
+		background-color: $eif-light;
+		padding: 10px;
+		border-radius: 5px;
+		margin-bottom: 10px;
+
+		strong {
+			color: $tech-blue;
+		}
+	}
+}

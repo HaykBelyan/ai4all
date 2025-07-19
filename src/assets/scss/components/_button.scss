@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../mixins";
+
+.btn {
+	display: inline-block;
+	padding: 12px 18px; // Slightly reduced horizontal padding for better fit
+	border-radius: 5px;
+	font-family: $font-body;
+	font-weight: 700;
+	font-size: 1rem;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-align: center;
+
+	// FIX: Allow buttons to grow and fill available space in a flex container
+	flex-grow: 1;
+	// FIX: Give buttons a minimum sensible width before growing/wrapping
+	flex-basis: 140px;
+
+	&.primary {
+		background: $tech-gradient-cta;
+		color: $white;
+
+		&:hover {
+			opacity: 0.9;
+			transform: translateY(-2px);
+		}
+	}
+
+	&.secondary {
+		background-color: transparent;
+		color: $tech-blue;
+		border: 2px solid $tech-blue;
+
+		&:hover {
+			background-color: $tech-blue;
+			color: $white;
+		}
+	}
+}

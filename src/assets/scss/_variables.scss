@@ -1,0 +1,22 @@
+// Branding & Visual Identity
+
+// Colors
+$eif-primary: #2c3e50; // Dark Blue/Grey (Base)
+$eif-secondary: #34495e; // Slightly lighter grey
+$eif-light: #ecf0f1; // Light Grey background
+$white: #ffffff;
+
+// Tech Palette
+$tech-blue: #007bff;
+$tech-gradient: linear-gradient(135deg, #6e45e2, #88d3ce);
+$tech-gradient-cta: linear-gradient(90deg, #007bff, #0056b3);
+
+// Typography
+$font-body: "Inter", "Nunito Sans", sans-serif;
+$font-headline: "Monument Extended", "Inter", sans-serif; // Using Inter as fallback
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+// FIX: Adjusted breakpoint to trigger earlier
+$bp-desktop: 1245px;

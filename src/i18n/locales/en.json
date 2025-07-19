@@ -1,0 +1,415 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "About AI4ALL",
+		"courses": "Courses",
+		"success": "Success Stories",
+		"contact": "Get Involved"
+	},
+	"home": {
+		"headline": "Artificial Intelligence for Everyone",
+		"subHeadline": "Building Armenia's Future, One Algorithm at a Time.",
+		"mission": "Empowering Armenian students, professionals, and businesses with the essential AI skills to innovate, compete, and thrive in the global digital economy.",
+		"cta": "Join the AI Revolution",
+		"featuredCourses": {
+			"title": "Featured Courses & Workshops"
+		},
+		"successSpotlight": {
+			"title": "Success Story Spotlight",
+			"readMore": "Read more success stories",
+			"defaultQuote": "This program transformed my career",
+			"defaultAuthor": "AI4ALL Participant"
+		}
+	},
+	"benefits": {
+		"students": {
+			"title": "For Students & Professionals",
+			"text": "Future-Proof Your Career. Gain hands-on AI skills and open doors to top tech opportunities."
+		},
+		"educators": {
+			"title": "For Educators",
+			"text": "Empower the Next Generation. Access curriculum, tools, and training to bring AI into your classroom."
+		},
+		"businesses": {
+			"title": "For Businesses",
+			"text": "Drive Innovation. Automate processes, unlock insights, and upskill your workforce for a competitive edge."
+		}
+	},
+	"about": {
+		"title": "The Vision Behind AI4ALL Armenia",
+		"eif": {
+			"title": "Powered by the Enterprise Incubator Foundation",
+			"text": "For over two decades, the Enterprise Incubator Foundation (EIF) has been the cornerstone of Armenia's technology ecosystem. EIF's mission is to build a world-class tech sector, and AI4ALL Armenia is a strategic initiative to ensure our nation is a leader, not a follower, in the artificial intelligence revolution. By providing this platform, EIF is investing in the most crucial asset for the future: a skilled, innovative, and AI-literate workforce."
+		},
+		"goals": {
+			"title": "Our Goals & Objectives",
+			"literacy": {
+				"title": "AI Literacy",
+				"text": "Make AI concepts accessible to a broad audience, from high school students to business executives."
+			},
+			"workforce": {
+				"title": "Workforce Development",
+				"text": "Create a robust pipeline of job-ready AI talent to meet the demands of the local and global tech industry."
+			},
+			"impact": {
+				"title": "Economic Impact",
+				"text": "Help Armenian businesses leverage AI for growth, efficiency, and a competitive edge in the global market."
+			}
+		},
+		"journey": {
+			"title": "Our Journey",
+			"milestones": [
+				{
+					"year": "2023",
+					"title": "Project Inception",
+					"description": "The idea for AI4ALL Armenia was born within EIF."
+				},
+				{
+					"year": "Q1 2024",
+					"title": "Launch of First Cohort",
+					"description": "Our first 'Intro to ML' course begins with 50 students."
+				},
+				{
+					"year": "Q3 2024",
+					"title": "Partnership with X University",
+					"description": "Collaborating to integrate AI into the computer science curriculum."
+				},
+				{
+					"year": "Q4 2024",
+					"title": "1000+ Participants Trained",
+					"description": "A major milestone reached across all our workshops and courses."
+				},
+				{
+					"year": "Future Goal",
+					"title": "National Expansion",
+					"description": "Our vision is to establish AI learning hubs in every region of Armenia."
+				}
+			]
+		}
+	},
+	"courses": {
+		"title": "Courses & Workshops",
+		"description": "Find the perfect learning path for you. Filter by your background and preferred learning style to get started on your AI journey.",
+		"filters": {
+			"allAudiences": "All Audiences",
+			"student": "Beginner / Student",
+			"business": "Professional / Business",
+			"teacher": "Teacher / Educator",
+			"allFormats": "All Formats",
+			"online": "Online",
+			"inPerson": "In-Person Workshop",
+			"selfPaced": "Self-Paced"
+		},
+		"noMatch": "No courses match your current filters.",
+		"card": { "details": "Details", "register": "Register Now" },
+		"data": {
+			"1": {
+				"title": "Introduction to Machine Learning",
+				"language": "Armenian",
+				"description": "Learn the fundamentals of ML and build your first predictive models."
+			},
+			"2": {
+				"title": "AI for Business Leaders",
+				"language": "English",
+				"description": "Understand how to leverage AI for strategic advantage and process automation."
+			},
+			"3": {
+				"title": "AI in the Classroom",
+				"language": "Armenian",
+				"description": "Get the tools and curriculum to introduce AI concepts to your students."
+			},
+			"4": {
+				"title": "Deep Learning Specialization",
+				"language": "English",
+				"description": "Master neural networks and build advanced models for computer vision and NLP."
+			},
+			"5": {
+				"title": "Data Science with Python",
+				"language": "English",
+				"description": "From data cleaning to visualization, learn the full data science pipeline."
+			},
+			"6": {
+				"title": "Natural Language Processing (NLP)",
+				"language": "English",
+				"description": "Teach machines to understand and process human language. Build chatbots and sentiment analyzers."
+			},
+			"7": {
+				"title": "AI for Entrepreneurs",
+				"language": "Armenian",
+				"description": "Identify business opportunities and develop AI-powered product ideas."
+			},
+			"8": {
+				"title": "Introduction to Computer Vision",
+				"language": "English",
+				"description": "Enable computers to see and interpret the visual world. Work with images and video."
+			},
+			"9": {
+				"title": "AI Ethics and Responsible Innovation",
+				"language": "Armenian",
+				"description": "Explore the societal impact of AI and learn to build fair and transparent systems."
+			}
+		}
+	},
+	"courseDetail": {
+		"notFound": {
+			"title": "Course Not Found",
+			"text": "The course you are looking for does not exist.",
+			"button": "Back to All Courses"
+		},
+		"data": {
+			"1": {
+				"fullDescription": "Full Description",
+				"descriptionText": "This foundational course is the perfect starting point. We demystify AI and ML, providing you with the core concepts and practical Python skills to start building intelligent applications.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Module 1: Introduction to AI and Python Basics",
+					"Module 2: Data Wrangling with Pandas",
+					"Module 3: Core Machine Learning Algorithms",
+					"Module 4: Building Your First Predictive Model",
+					"Capstone Project: Real-World Data Challenge"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Anna Petrosyan",
+					"instructorTitle": "Lead Data Scientist",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Basic high-school level math. No prior programming experience required.",
+					"language": "Language"
+				}
+			},
+			"2": {
+				"fullDescription": "Full Description",
+				"descriptionText": "This high-level, strategic workshop is for managers, executives, and decision-makers. You will learn to identify high-impact AI use cases, understand the resources required for AI projects, and lead your organization through digital transformation.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Session 1: The AI Landscape for Business",
+					"Session 2: Data Strategy and Building AI Teams",
+					"Session 3: From Idea to AI-Powered Product",
+					"Session 4: Measuring ROI and Managing Risk"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Sona Martirosyan",
+					"instructorTitle": "Tech Strategist & EIF Mentor",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "No technical background required. Experience in a leadership or management role is beneficial.",
+					"language": "Language"
+				}
+			},
+			"3": {
+				"fullDescription": "Full Description",
+				"descriptionText": "Bring the future to your students. This program provides educators with a ready-to-use curriculum, engaging project ideas, and the foundational knowledge needed to confidently teach the core concepts of AI and its societal implications.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Unit 1: What is AI? (for Educators)",
+					"Unit 2: Project-Based Learning in AI",
+					"Unit 3: Teaching AI Ethics in the Classroom",
+					"Unit 4: Tools and Resources for Teachers"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Anna Petrosyan",
+					"instructorTitle": "Lead Data Scientist",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "A passion for teaching. No prior computer science knowledge is necessary.",
+					"language": "Language"
+				}
+			},
+			"4": {
+				"fullDescription": "Full Description",
+				"descriptionText": "Dive deep into the world of neural networks. This advanced course covers the theory and application of deep learning for complex tasks like image recognition and natural language understanding.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Module 1: Foundations of Neural Networks",
+					"Module 2: Convolutional Neural Networks (CNNs) for Vision",
+					"Module 3: Recurrent Neural Networks (RNNs) for Sequences",
+					"Module 4: Transformers and Attention Mechanisms",
+					"Final Project: Build an Advanced AI Model"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Davit Baghdasaryan",
+					"instructorTitle": "Senior ML Engineer",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Strong Python skills and prior experience with basic Machine Learning concepts.",
+					"language": "Language"
+				}
+			},
+			"5": {
+				"fullDescription": "Full Description",
+				"descriptionText": "Transform raw data into actionable insights. This course covers the end-to-end data science process, including data cleaning, exploratory data analysis (EDA), feature engineering, and powerful data visualization techniques.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Module 1: The Data Science Lifecycle",
+					"Module 2: Advanced NumPy and Pandas",
+					"Module 3: Data Visualization with Matplotlib & Seaborn",
+					"Module 4: Statistical Foundations for Data Science",
+					"Project: Analyze a Large-Scale Dataset"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Anna Petrosyan",
+					"instructorTitle": "Lead Data Scientist",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Basic Python programming knowledge is required.",
+					"language": "Language"
+				}
+			},
+			"6": {
+				"fullDescription": "Full Description",
+				"descriptionText": "Unlock the power of text data. In this course, you will learn to build systems that can analyze text, understand intent, classify documents, and even generate human-like language. Essential for chatbots, search engines, and more.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Module 1: Text Preprocessing and Vectorization",
+					"Module 2: Sentiment Analysis and Text Classification",
+					"Module 3: Topic Modeling and Information Extraction",
+					"Module 4: Introduction to Transformer Models (e.g., BERT)",
+					"Project: Build a Customer Review Analyzer"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Davit Baghdasaryan",
+					"instructorTitle": "Senior ML Engineer",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Solid Python and foundational Machine Learning knowledge.",
+					"language": "Language"
+				}
+			},
+			"7": {
+				"fullDescription": "Full Description",
+				"descriptionText": "This non-technical workshop is designed for founders and product managers. Learn how to think like an AI strategist, identify opportunities for AI in your business, and manage AI projects without writing a single line of code.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Week 1: What is AI (and what it isn't)",
+					"Week 2: Spotting AI Opportunities",
+					"Week 3: The AI Project Lifecycle & Data Strategy",
+					"Week 4: Pitching Your AI-Powered Product"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Sona Martirosyan",
+					"instructorTitle": "Tech Strategist & EIF Mentor",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "No technical background required. An interest in business and innovation.",
+					"language": "Language"
+				}
+			},
+			"8": {
+				"fullDescription": "Full Description",
+				"descriptionText": "Learn the fundamentals of how machines 'see'. This course will guide you through image processing techniques, feature detection, and the application of Convolutional Neural Networks (CNNs) for tasks like object detection and image classification.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Module 1: Image Fundamentals & OpenCV Basics",
+					"Module 2: Feature & Edge Detection",
+					"Module 3: Intro to Convolutional Neural Networks (CNNs)",
+					"Module 4: Object Detection with YOLO",
+					"Project: Build a Real-time Object Detector"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Davit Baghdasaryan",
+					"instructorTitle": "Senior ML Engineer",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Python skills and familiarity with basic algebra.",
+					"language": "Language"
+				}
+			},
+			"9": {
+				"fullDescription": "Full Description",
+				"descriptionText": "As AI becomes more powerful, understanding its ethical implications is crucial. This course explores topics like algorithmic bias, data privacy, accountability, and the societal impact of AI, equipping you to be a responsible innovator.",
+				"syllabusTitle": "Syllabus / Modules",
+				"syllabus": [
+					"Week 1: The Importance of AI Ethics",
+					"Week 2: Fairness and Bias in Algorithms",
+					"Week 3: Transparency and Explainable AI (XAI)",
+					"Week 4: Building a Framework for Responsible AI"
+				],
+				"sidebar": {
+					"instructor": "Instructor",
+					"instructorName": "Sona Martirosyan",
+					"instructorTitle": "Tech Strategist & EIF Mentor",
+					"prerequisites": "Prerequisites",
+					"prerequisitesText": "Open to all backgrounds. No technical skills required.",
+					"language": "Language"
+				}
+			}
+		}
+	},
+	"success": {
+		"title": "Success Stories",
+		"description": "See the real-world impact of our programs on students, professionals, and businesses across Armenia.",
+		"card": {
+			"outcomeLabel": "The Outcome:"
+		},
+		"cta": {
+			"title": "Ready to write your own success story?",
+			"button": "Explore Our Courses"
+		},
+		"data": {
+			"1": {
+				"name": "Anahit, University Student",
+				"quote": "AI4ALL didn't just teach me to code; it taught me how to think differently about solving problems.",
+				"outcome": "I developed a model to predict protein folding patterns for my final year project, which was recognized by the faculty. I'm now pursuing a Master's in Computational Biology."
+			},
+			"2": {
+				"name": "Arman, Software Engineer",
+				"quote": "This program was the bridge from traditional software development to a career in Machine Learning.",
+				"outcome": "I built a recommendation engine for a mock e-commerce site as my capstone project. I leveraged that project to land an ML Engineer position at a top Armenian tech company."
+			},
+			"3": {
+				"name": "Yerevan Delivery Startup",
+				"quote": "By upskilling our team with AI4ALL, we optimized our delivery routes and cut fuel costs by 15%.",
+				"outcome": "The team developed a route optimization tool that reduced average delivery times and cut fuel consumption by 15% within the first quarter. This directly improved our bottom line."
+			}
+		}
+	},
+	"contact": {
+		"title": "Get Involved",
+		"description": "Whether you're a learner, a business leader, or an expert willing to help, there's a place for you in the AI4ALL community.",
+		"learners": {
+			"title": "Start Your AI Journey Today",
+			"text": "Ready to gain the skills that will shape the future? Browse our catalog of courses and find the one that's right for you.",
+			"button": "Explore Courses"
+		},
+		"partners": {
+			"title": "Shape the Future of AI in Armenia",
+			"text": "Partner with us to upskill your workforce, access a pipeline of emerging talent, and demonstrate your commitment to Armenia's tech leadership.",
+			"button": "Become a Partner"
+		},
+		"volunteers": {
+			"title": "Share Your Expertise",
+			"text": "Are you an industry professional? We need mentors, guest lecturers, and project judges to inspire the next generation. Join us as a volunteer.",
+			"button": "Volunteer Now"
+		},
+		"info": {
+			"inquiries": "General Inquiries",
+			"location": "Our Location",
+			"address_line1": "Enterprise Incubator Foundation",
+			"address_line2": "21, 1 Bagrevand St, Yerevan 0062, Armenia"
+		}
+	},
+	"footer": {
+		"eif_initiative": "An initiative by the Enterprise Incubator Foundation (EIF)",
+		"quickLinks": "Quick Links",
+		"followUs": "Follow Us",
+		"copyright": "© {{year}} AI4ALL Armenia. All Rights Reserved."
+	},
+	"chatbot": {
+		"header": "AI Course Helper",
+		"greeting": "Hello! I'm a bot trained to answer questions about our courses. Here are some common questions:",
+		"faqs": [
+			{
+				"q": "What are the prerequisites?",
+				"a": "Prerequisites vary by course. Check the 'Details' page for specific requirements."
+			},
+			{
+				"q": "What is the cost?",
+				"a": "Many of our introductory courses are free. Advanced workshops may have a fee, which will be listed on the course page."
+			},
+			{
+				"q": "When is the next schedule?",
+				"a": "New cohorts start every 2-3 months. The most up-to-date schedule is on the 'Courses & Workshops' page."
+			}
+		]
+	}
+}

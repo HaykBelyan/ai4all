@@ -1,0 +1,88 @@
+@import "../variables";
+@import "../mixins";
+
+.about-page {
+	.eif-section {
+		@include flex-center(column, center, center);
+		text-align: center;
+		gap: 40px;
+		@include tablet {
+			flex-direction: row;
+			text-align: left;
+		}
+
+		.eif-logo {
+			max-width: 150px;
+			flex-shrink: 0;
+		}
+	}
+
+	.abstract {
+		position: absolute;
+		object-fit: cover;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: calc(100% + 40px);
+		z-index: -1;
+		opacity: 0.9;
+	}
+	.timeline {
+		position: relative;
+		max-width: 800px;
+		margin: 40px auto;
+
+		&::after {
+			// The vertical line
+			content: "";
+			position: absolute;
+			width: 4px;
+			background-color: $eif-light;
+			top: 0;
+			bottom: 0;
+			left: 50%;
+			margin-left: -2px;
+		}
+	}
+
+	.timeline-item {
+		padding: 10px 40px;
+		position: relative;
+		width: 50%;
+
+		&.left {
+			left: 0;
+			text-align: right;
+		}
+		&.right {
+			left: 50%;
+		}
+
+		&::after {
+			// The circle on the line
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-color: $white;
+			border: 4px solid $tech-blue;
+			top: 20px;
+			border-radius: 50%;
+			z-index: 1;
+		}
+
+		&.left::after {
+			right: -10px;
+		}
+		&.right::after {
+			left: -10px;
+		}
+
+		.timeline-content {
+			padding: 20px;
+			background-color: $eif-light;
+			border-radius: 6px;
+			position: relative;
+		}
+	}
+}

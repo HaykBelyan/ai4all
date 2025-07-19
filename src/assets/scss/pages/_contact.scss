@@ -1,0 +1,52 @@
+.contact-page {
+	.contact-description {
+		text-align: center;
+		max-width: 700px;
+		margin: -20px auto 40px auto;
+	}
+
+	.involvement-sections {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 30px;
+		margin-bottom: 50px;
+
+		.involvement-card {
+			border: 1px solid #808080;
+			padding: 30px;
+			border-radius: 8px;
+
+			.card-text {
+				margin-bottom: 16px;
+			}
+
+			.volunteer-title {
+				margin-bottom: 8px;
+			}
+		}
+	}
+
+	.contact-info {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+		justify-content: center;
+		text-align: center;
+
+		.icon {
+			font-size: 2rem;
+			color: #007bff;
+		}
+	}
+}
+
+.abstract {
+	position: absolute;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 180%;
+	z-index: -1;
+	opacity: 0.9;
+}

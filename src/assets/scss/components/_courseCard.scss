@@ -1,0 +1,55 @@
+.course-card {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+
+	.card-image-placeholder {
+		height: 180px;
+		background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+	}
+
+	.card-content {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+
+	.card-tags {
+		margin-bottom: 10px;
+		.tag {
+			display: inline-block;
+			background: #ecf0f1;
+			color: #34495e;
+			padding: 3px 8px;
+			border-radius: 4px;
+			font-size: 0.75rem;
+			margin-right: 5px;
+		}
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	.card-lang {
+		font-size: 0.9rem;
+		color: #666;
+		margin-bottom: 10px;
+	}
+
+	.card-desc {
+		flex-grow: 1;
+		margin-bottom: 20px;
+	}
+
+	.card-actions {
+		display: flex;
+		gap: 10px;
+		// FIX: This allows buttons to stack vertically when they don't have enough space
+		flex-wrap: wrap;
+	}
+}
