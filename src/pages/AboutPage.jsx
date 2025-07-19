@@ -20,7 +20,7 @@ const AboutPage = () => {
 					<h1 className="section-title">{t("about.title")}</h1>
 					<div className="eif-section">
 						<img
-							src="/images/logos/EIF_logo_big.png"
+							src={`${import.meta.env.BASE_URL}images/logos/EIF_logo_big.png`}
 							alt="Enterprise Incubator Foundation Logo"
 							className="eif-logo"
 						/>
