@@ -4,11 +4,19 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import en from "./locales/en.json";
 import hy from "./locales/hy.json";
 
-i18n.use(LanguageDetector)
+i18n
+	// The LanguageDetector will try to find the user's browser language.
+	// If you want to ALWAYS default to Armenian regardless of the user's browser,
+	// you can remove this line. But it's good practice to keep it.
+	.use(LanguageDetector)
 	.use(initReactI18next)
 	.init({
+		// You can set debug to false for production
 		debug: true,
-		fallbackLng: "en",
+
+		// FIX: Change the fallback language to Armenian ('hy')
+		fallbackLng: "hy",
+
 		interpolation: {
 			escapeValue: false,
 		},
