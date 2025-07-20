@@ -12,7 +12,7 @@ const ContactPage = () => {
 	return (
 		<div className="contact-page">
 			<section>
-				<img className="abstract" src="/images/shapes/aaabstract.jpg" alt="Abstract" />
+				<img className="abstract" src={`${import.meta.env.BASE_URL}/images/shapes/aaabstract.jpg`} alt="Abstract" />
 				<div className="container">
 					<h1 className="section-title fade-in-up visible">{t("contact.title")}</h1>
 					<p className="fade-in-up visible contact-description">

@@ -121,7 +121,9 @@ const CourseDetailPage = () => {
 							}}
 						>
 							<img
-								src={`/images/instructors/instructor-${courseId}.jpg`}
+								src={`${
+									import.meta.env.BASE_URL
+								}/images/instructors/instructor-${courseId}.jpg`}
 								alt="Instructor"
 								style={{
 									width: "60px",

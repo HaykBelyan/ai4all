@@ -72,14 +72,20 @@ const Header = () => {
 							className={i18n.language.startsWith("en") ? "active" : ""}
 							aria-label="Switch to English"
 						>
-							<img src="/images/flags/us.svg" alt="USA Flag" />
+							<img
+								src={`${import.meta.env.BASE_URL}/images/flags/us.svg`}
+								alt="USA Flag"
+							/>
 						</button>
 						<button
 							onClick={() => changeLanguage("hy")}
 							className={i18n.language === "hy" ? "active" : ""}
 							aria-label="Switch to Armenian"
 						>
-							<img src="/images/flags/am.svg" alt="Armenian Flag" />
+							<img
+								src={`${import.meta.env.BASE_URL}/images/flags/am.svg`}
+								alt="Armenian Flag"
+							/>
 						</button>
 					</div>
 				</div>

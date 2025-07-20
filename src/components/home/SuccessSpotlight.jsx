@@ -18,7 +18,7 @@ const SuccessSpotlight = ({ story }) => {
 				</h2>
 				<div className="spotlight-content">
 					<img
-						src={story.image}
+						src={`${import.meta.env.BASE_URL}/${story.image}`}
 						alt={story.name || "Success story"}
 						className="spotlight-image"
 					/>

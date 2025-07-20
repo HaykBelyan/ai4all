@@ -65,7 +65,11 @@ const AboutPage = () => {
 				style={{ backgroundColor: "#f9f9f9" }}
 			>
 				<div className="container">
-					<img className="abstract" src="/images/shapes/aaabstract.jpg" alt="Abstract" />
+					<img
+						className="abstract"
+						src={`${import.meta.env.BASE_URL}/images/shapes/aaabstract.jpg`}
+						alt="Abstract"
+					/>
 
 					<h2 className="section-title">{t("about.journey.title")}</h2>
 					<Timeline />

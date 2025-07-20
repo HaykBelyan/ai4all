@@ -10,7 +10,7 @@ const CourseCard = ({ course }) => {
 		<div className="course-card">
 			<div className="card-image-placeholder">
 				<img
-					src={`images/cards/card-image-${course.id}.jpg`}
+					src={`${import.meta.env.BASE_URL}/images/cards/card-image-${course.id}.jpg`}
 					alt={`card-image-${course.id}.jpg`}
 					style={{ width: "100%", height: "100%", objectFit: "cover" }}
 				/>
