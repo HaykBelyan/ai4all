@@ -20,7 +20,7 @@ const AboutPage = () => {
 					<h1 className="section-title">{t("about.title")}</h1>
 					<div className="eif-section">
 						<img
-							src={`${import.meta.env.BASE_URL}images/logos/EIF_logo_big.png`}
+							src="/images/logos/EIF_logo_big.png"
 							alt="Enterprise Incubator Foundation Logo"
 							className="eif-logo"
 						/>
@@ -65,11 +65,7 @@ const AboutPage = () => {
 				style={{ backgroundColor: "#f9f9f9" }}
 			>
 				<div className="container">
-					<img
-						className="abstract"
-						src={`${import.meta.env.BASE_URL}/images/shapes/aaabstract.jpg`}
-						alt="Abstract"
-					/>
+					<img className="abstract" src="/images/shapes/aaabstract.jpg" alt="Abstract" />
 
 					<h2 className="section-title">{t("about.journey.title")}</h2>
 					<Timeline />

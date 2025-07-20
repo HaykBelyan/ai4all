@@ -13,7 +13,7 @@ const HeroSection = () => {
                   Using a placeholder color for now.
                 */}
 				<video autoPlay loop muted playsInline>
-					<source src={`${import.meta.env.BASE_URL}/video/hero-background.mp4`} type="video/mp4" />
+					<source src="/video/hero-background.mp4" type="video/mp4" />
 				</video>
 			</div>
 			<div className="hero-content">

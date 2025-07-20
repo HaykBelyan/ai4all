@@ -20,7 +20,7 @@ const SuccessStoryCard = ({ story }) => {
 			}}
 		>
 			<img
-				src={`${import.meta.env.BASE_URL}${story.image}`}
+				src={story.image}
 				alt={t(story.nameKey)}
 				style={{ width: "100%", height: "200px", objectFit: "cover", borderRadius: "4px" }}
 			/>
